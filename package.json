@@ -1,0 +1,22 @@
+{
+  "name": "cypress-best-practices-tests",
+  "version": "1.0.0",
+  "description": "An automation framework based on the Page object model design pattern for Cypress 10.0. Dummy examples are included to demonstrate antipatterns and best practices.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISanjeevKumar/cypress-best-practices-tests.git"
+  },
+  "author": "Sanjeev Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISanjeevKumar/cypress-best-practices-tests/issues"
+  },
+  "homepage": "https://github.com/ISanjeevKumar/cypress-best-practices-tests#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
