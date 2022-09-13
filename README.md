@@ -4,5 +4,5 @@ An automation framework based on the Page object model design pattern for Cypres
 
 ## Framework Features
 
-- [/] Page Object Model
+- [x] Page Object Model
 - [x] Data Driven Test
