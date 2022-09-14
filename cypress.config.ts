@@ -17,5 +17,6 @@ module.exports = defineConfig({
       require("cypress-mochawesome-reporter/plugin")(on);
       console.log("config:", config);
     },
+    baseUrl: "https://demo.realworld.io",
   },
 });

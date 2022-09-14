@@ -1,6 +1,9 @@
 import { Users } from "../data-modals/Users";
 
 class RegisterPage {
+  public visit() {
+    cy.visit("/#/register");
+  }
   public signUp(user: Users) {
     cy.get("input[placeholder='Username']").type(user.username);
     cy.get("input[placeholder='Email']").type(user.email);

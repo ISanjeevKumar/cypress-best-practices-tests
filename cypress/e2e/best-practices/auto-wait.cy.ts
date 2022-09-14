@@ -11,8 +11,8 @@ describe("Best practice Example -How to avoid Hard coded wait", function () {
     });
   });
 
-  it("Should be able to login", () => {
-    cy.visit("https://demo.realworld.io/#/register");
+  it("Should be able to register with new user", () => {
+    app.RegisterPage.visit();
     app.RegisterPage.signUp(user);
   });
 });
