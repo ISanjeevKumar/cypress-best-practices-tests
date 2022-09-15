@@ -12,7 +12,7 @@ describe("Best practice Example -How to avoid Hard coded wait", function () {
   });
 
   it("Should be able to register with new user", () => {
-    app.RegisterPage.visit();
-    app.RegisterPage.signUp(user);
+    app.registerPage.visit();
+    app.registerPage.signUp(user);
   });
 });

@@ -1,7 +1,7 @@
 import { registerPage } from "./RegisterPage";
 
 class RealWorldApp {
-  public get RegisterPage() {
+  public get registerPage() {
     return registerPage;
   }
 }
